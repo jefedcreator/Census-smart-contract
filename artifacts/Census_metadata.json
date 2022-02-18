@@ -1,0 +1,229 @@
+{
+	"compiler": {
+		"version": "0.8.12+commit.f00d7308"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "_alive",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum Census.Gender",
+						"name": "_gender",
+						"type": "uint8"
+					},
+					{
+						"internalType": "address",
+						"name": "_id",
+						"type": "address"
+					}
+				],
+				"name": "addCitizen",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_isAlive",
+						"type": "address"
+					}
+				],
+				"name": "checkAlive",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "checkDetail",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "bool",
+								"name": "alive",
+								"type": "bool"
+							},
+							{
+								"internalType": "uint256",
+								"name": "age",
+								"type": "uint256"
+							},
+							{
+								"internalType": "enum Census.Gender",
+								"name": "gender",
+								"type": "uint8"
+							},
+							{
+								"internalType": "address",
+								"name": "id",
+								"type": "address"
+							}
+						],
+						"internalType": "struct Census.setIdentity",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deleteArr",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "population",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "viewChildren",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "bool",
+								"name": "alive",
+								"type": "bool"
+							},
+							{
+								"internalType": "uint256",
+								"name": "age",
+								"type": "uint256"
+							},
+							{
+								"internalType": "enum Census.Gender",
+								"name": "gender",
+								"type": "uint8"
+							},
+							{
+								"internalType": "address",
+								"name": "id",
+								"type": "address"
+							}
+						],
+						"internalType": "struct Census.setIdentity[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "viewDetails",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "bool",
+								"name": "alive",
+								"type": "bool"
+							},
+							{
+								"internalType": "uint256",
+								"name": "age",
+								"type": "uint256"
+							},
+							{
+								"internalType": "enum Census.Gender",
+								"name": "gender",
+								"type": "uint8"
+							},
+							{
+								"internalType": "address",
+								"name": "id",
+								"type": "address"
+							}
+						],
+						"internalType": "struct Census.setIdentity[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Proofoofexistence.sol": "Census"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Proofoofexistence.sol": {
+			"keccak256": "0x4e95106aa0a806188ebef4be701a71b8e26c7050794f46dee3f09e9e70df2251",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://6932d6dc1f754aeca8c839eda99f345fd940a85a2b39869fc293eff7c272a1c3",
+				"dweb:/ipfs/QmboTzo3vUwxRLu4xtj4G5yQ6KEvrVwZmZCRxzFf4eGm9N"
+			]
+		}
+	},
+	"version": 1
+}
